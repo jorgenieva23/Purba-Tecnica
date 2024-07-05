@@ -1,0 +1,92 @@
+/* /styles/Header.module.css */
+
+.header {
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  z-index: 50;
+  background-color: #1e1e1e;
+  border-bottom: solid #4a4a4a;
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.flexContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  margin-left: 2rem;
+}
+
+.menuButton {
+  display: none;
+}
+
+.menuIcon {
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  outline: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.navMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navLink {
+  display: block;
+  margin: 0 1rem;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.navLink:hover {
+  color: #ffcc00;
+}
+
+@media (max-width: 768px) {
+  .menuButton {
+    display: block;
+  }
+
+  .navMenu {
+    display: none;
+    flex-direction: column;
+    padding-bottom: 1rem;
+  }
+
+  .navMenu.navActive {
+    display: flex;
+  }
+
+  .navLink {
+    margin: 1rem 0;
+  }
+}

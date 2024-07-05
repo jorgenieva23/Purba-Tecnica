@@ -1,0 +1,90 @@
+/* /styles/About.module.css */
+
+.section {
+  --border-color: black;
+  margin-top: 6rem;
+  margin-inline-start: 3rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 2s;
+  margin: 1.75rem 0;
+  padding: 4rem 0;
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding: 8rem 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    text-align: left;
+  }
+}
+
+.imageContainer {
+  margin-top: 0.5rem;
+}
+
+.image {
+  border-radius: 50%;
+  margin: 0.25rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.textContainer {
+  margin-top: 0.5rem;
+  width: 60%;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 3.5rem;
+  }
+}
+
+.description {
+  font-size: 1.125rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .description {
+    font-size: 2rem;
+  }
+}
+
+.highlight {
+  font-weight: bold;
+  background: linear-gradient(to right, #f59e0b, #f97316);
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  display: inline-block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
