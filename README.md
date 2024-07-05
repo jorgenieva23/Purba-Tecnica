@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Pueba Tecnica
 
-## Getting Started
+Este proyecto es un portafolio personal que muestra mis habilidades y proyectos. Está construido utilizando Next.js 14, React, y CSS Modules.
 
-First, run the development server:
+## Descripción
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+El portafolio incluye una cabecera con mi nombre y una imagen de perfil, una sección "Sobre mí" con una breve descripción, una lista de mis intereses y un formulario de contacto.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Características
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **HTML y CSS**: Maquetado de la página con diseño responsivo.
+- **React y Next.js 14**: Componentes para cada sección de la página.
+- **Formulario de Contacto**: Con validación básica y mensaje de éxito al enviar.
+- **CSS Modules**: Para el manejo de estilos.
+- **Animaciones**: Transiciones suaves para una mejor experiencia de usuario.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Instalación
 
-## Learn More
+1. Clona el repositorio:
 
-To learn more about Next.js, take a look at the following resources:
+    ```bash
+    git clone https://github.com/tu-usuario/tu-repositorio.git
+    cd tu-repositorio
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Instala las dependencias:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    ```bash
+    npm install
+    ```
 
-## Deploy on Vercel
+3. Ejecuta el proyecto en modo desarrollo:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```bash
+    npm run dev
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    La aplicación estará disponible en `http://localhost:3000`.
+
+## Uso
+
+- **Home**: Página principal con una introducción.
+- **Sobre mí**: Información sobre mis habilidades y experiencia.
+- **Intereses**: Lista de mis intereses.
+- **Contacto**: Formulario para que los visitantes puedan contactarme.
+
+## Estructura del Proyecto
+
+- `/components`: Contiene los componentes React (Header, About, Interests, ContactForm).
+- `/styles`: Contiene los archivos CSS Modules.
+- `/app`: Contiene la estructura de la aplicación Next.js.
+- `package.json`: Archivo de configuración del proyecto con dependencias y scripts.
+
+## Requisitos
+
+- Node.js (versión 18.17.0)
+
+## Créditos
+
+Proyecto fue desarrollado por [Jorge Nieva] https://github.com/jorgenieva23
